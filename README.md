@@ -1,4 +1,4 @@
-replace_reads
+Translate Header
 =============
 
-Replaces reads in a BAM file
+Translates names of contigs in a BAM file to a new reference.

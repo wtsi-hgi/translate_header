@@ -2,7 +2,7 @@
 # Process this file with autoconf to produce a configure script.
 
 AC_PREREQ([2.69])
-AC_INIT([replace_reads], [1.1], [mp15@sanger.ac.uk])
+AC_INIT([translate_header], [1.1], [mp15@sanger.ac.uk])
 AM_INIT_AUTOMAKE([-Wall foreign])
 AC_CONFIG_SRCDIR([src/main.cpp])
 AC_CONFIG_HEADERS([config.h])
