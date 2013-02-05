@@ -65,6 +65,7 @@ public:
         
         while (sam_read1(file_iter, file_header, file_read) >= 0) {
             file_read->core.tid = trans[file_read->core.tid];
+            file_read->core.mtid = trans[file_read->core.mtid];
             sam_write1(out_file, file_header, file_read);
         }
 
