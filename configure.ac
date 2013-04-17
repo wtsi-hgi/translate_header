@@ -1,8 +1,8 @@
 #                                               -*- Autoconf -*-
 # Process this file with autoconf to produce a configure script.
 
-AC_PREREQ([2.69])
-AC_INIT([translate_header], [1.1], [mp15@sanger.ac.uk])
+AC_PREREQ([2.61])
+AC_INIT([translate_header], [1.2], [mp15@sanger.ac.uk])
 AM_INIT_AUTOMAKE([-Wall foreign])
 AC_CONFIG_SRCDIR([src/main.cpp])
 AC_CONFIG_HEADERS([config.h])
@@ -26,7 +26,7 @@ LDFLAGS="-L../../htslib/htslib -lz -lhts"
 LIBS="-lz -lhts"
 
 # Checks for typedefs, structures, and compiler characteristics.
-AC_CHECK_HEADER_STDBOOL
+#AC_CHECK_HEADER_STDBOOL
 
 # Checks for library functions.
 
